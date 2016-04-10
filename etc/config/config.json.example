@@ -1,0 +1,29 @@
+{
+    "config" : {
+        "awsConfig": {
+            "key":"",
+            "secret":"",
+            "profile":"KG_EmailService",
+            "region":"eu-west-1",
+            "QueueName":""
+        },
+        "ES": {
+            "folder": "/var/www/development/impque/data/",
+            "csvFile": "EMAILS.CSV",
+            "semFile": "GO.CSV",
+            "archiveFolder": "archive",
+            "importMessage": "COP EMV Email processing finished successfully",
+            "importErrMessage": "COP EMV Email file not present",
+            "logDir": "log"
+        },
+        "RoCsi": {
+            "importQueryLimit":7,
+            "importMessageLimit":7,
+            "importMessage":"COP EMV Email processing finished succesfully",
+            "importErrMessage":"COP EMV Email file not present",
+            "logDir":"\/log",
+            "chmod.enabled":false,
+            "strServer":"http:\/\/p3tre.emv3.com\/D2UTF8"
+        }
+    }
+}
