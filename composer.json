@@ -3,7 +3,8 @@
         "phpunit/phpunit": "3.7.*",
         "peekmo/jsonpath": "dev-master",
         "psr/log": "dev-master",
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "3.7.*",
+        "twig/twig": "~1.0"
     },
     "config": {
         "config": "etc/config"
